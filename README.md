@@ -1,16 +1,18 @@
 ## Case Study: DNS-DHCP-HTTP-CONFIGRATION
-# name:T.DANUSH REDDY
-# reg no:212223040029
-# Introduction:
-Computer networks allow multiple devices to communicate and share information efficiently. In this experiment, three different LAN networks (192.168.10.0/24, 192.168.20.0/24, and 192.168.30.0/24) are interconnected using routers, switches, and PCs.
+# Name:T.DANUSH REDDY
+# Reg No:212223040029
+
+## INTRODUCTION:
+
+*    Computer networks allow multiple devices to communicate and share information efficiently. In this experiment, three different LAN networks (192.168.10.0/24, 192.168.20.0/24, and 192.168.30.0/24) are interconnected using routers, switches, and PCs.
 The purpose of this practical task is to configure the PCs, switches, and routers so that devices across different networks can communicate with each other using proper IP addressing and routing.
 
-This experiment also verifies whether the configured network supports successful end-to-end connectivity using the ping command.
+*  This experiment also verifies whether the configured network supports successful end-to-end connectivity using the ping command.
 
-# network diagram:
+## NETWORK DIAGRAM:
 <img width="1572" height="1013" alt="image" src="https://github.com/user-attachments/assets/fdad3318-120a-411c-a4f7-5680883d6f87" />
 
-# description:
+## DESCRIPTION:
 The network contains three LANs, each connected to a router:
 
 | LAN      | Network Address | Default Gateway | PCs                    |
@@ -36,7 +38,7 @@ The main goal is to configure:
 
 * 4.Testing connectivity using ping
 
-# procedure:
+## PROCEDURE:
 # Step 1 — Configure PC IP Addresses:
 
 * PC0 (LAN1)
@@ -139,7 +141,8 @@ Reply from 192.168.10.3: bytes=32 time<1ms TTL=128
 
 
 All PCs across three LANs should successfully communicate.
-# output:
+
+## OUTPUR:
 
 * All PC IP-confrations:
 
@@ -154,7 +157,8 @@ All PCs across three LANs should successfully communicate.
 <img width="545" height="367" alt="image" src="https://github.com/user-attachments/assets/328878fb-932d-44f4-a97b-5c11d35c58e2" />
 
 
-# result
+## RESULT:
+
 * The network was successfully configured with three LAN segments connected through routers using static routing. All PCs received valid IPv4 addresses, and routing ensured cross-network communication.
 
 * The ping results confirmed successful connectivity between all devices in LAN1, LAN2, and LAN3. This shows that the IP addressing, router configuration, and static routing were implemented correctly.
